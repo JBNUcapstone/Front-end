@@ -10,7 +10,7 @@ import {
 } from 'recharts';
 
 // 기본 API 서버 주소
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:3000';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8080';
 
 const App = () => {
     const [data, setData] = useState([]);
